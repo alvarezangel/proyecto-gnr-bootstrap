@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,15 +39,6 @@ nav ul li{
 
 :root{
     font-size: 16px;
-}
-
-.portada{
-    width: 100%;
-    height: 100vh;
-
-    background-image: url("../img/gunsnroses-portada.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 hr{
@@ -232,4 +223,212 @@ footer div li{
     justify-content: space-around;
     margin-bottom: 15px;
     
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+header {
+    background-color: black;
+}
+h1{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 700; 
+        font-size: 5rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+}
+
+a{
+        text-decoration: none;
+        color: white;
+}
+
+
+
+nav ul{
+        background-color: rgb(255, 0, 0);
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding-left: 0px;
+        
+}
+
+nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        font-family: 'Yanone Kaffeesatz', sans-serif ;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-inline: 15px;
+}   
+
+p{
+    font-size: 1.3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    color: white;
+}
+
+hr{
+    padding: 3px;
+    background-color:grey;
+    border-color: black;
+    margin: 0px;
+    
+}
+
+:root{
+        font-size: 16px;
+}
+
+.intro{
+    background-color: black;
+}
+
+.intro__titulo{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.intro__p1,.intro__p2{
+    text-align: center;
+}
+
+.fondo-vid{
+    background-color: black;
+}
+
+video{
+    width: 30vw;
+    height: 50vh;
+    border: solid grey 5px;
+    background-color: black;
+    margin: 20px;
+}
+
+.fondo-img{
+    background-color: black;
+}
+
+.fondo-img__estilo{
+    width: 30vw;
+    height: 50vh;
+    border: solid grey 5px;
+    margin: 20px;
+}
+
+footer{
+    padding-top: 5px;
+    background-color: black;
+}
+
+footer h2{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer div li{
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    color: white;       
+    text-align: center;
+    background-color: black;
+}
+
+footer ul {
+    text-align: center;
+    
+}
+
+.suscripcion{
+    font-size: 1.3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.suscripcion__boton{
+    color:black;
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.suscripcion__email{
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+}
+
+.fondo-susc{
+    background-color: black;
+}
+
+@media (max-width:1199px){
+
+    video{
+        width: 70vw;
+    }
+
+    .fondo-img__estilo{
+        width: 70vw;
+    } 
+}
+
+@media (min-width:1200px){
+    
+    footer h2{
+        text-align: start;
+    }   
+
+    footer div li{
+        display: block;
+        text-align: start;
+    }
+    
+    h3{
+        text-align: end;
+    }
+
+    .suscripcion{
+        text-align: end;
+    }
+
+    .intro__titulo,.intro__p1,.intro__p2{
+        text-align: start;
+    }
+}
+
+
