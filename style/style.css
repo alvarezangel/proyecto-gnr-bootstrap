@@ -64,6 +64,10 @@ a{
         color: white;
 }
 
+a:hover{
+    color: white;
+}
+
 
 
 nav ul{
@@ -97,6 +101,7 @@ hr{
     background-color:grey;
     border-color: black;
     margin: 0px;
+    opacity: 50;
     
 }
 
