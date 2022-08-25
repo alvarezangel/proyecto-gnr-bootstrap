@@ -1,0 +1,9 @@
+.fondo-img{
+    background-color: black;
+    &__estilo{
+        width: 30vw;
+        height: 50vh;
+        border: solid grey 5px;
+        margin: 20px;
+    }
+}

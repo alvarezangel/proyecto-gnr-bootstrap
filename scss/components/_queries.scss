@@ -1,0 +1,39 @@
+@media (max-width:1199px){
+
+    video{
+        width: 70vw;
+    }
+
+    .fondo-img__estilo{
+        width: 70vw;
+    } 
+
+    .img-banda1{
+        width: 70vw;
+    }
+
+}
+
+@media (min-width:1200px){
+    
+    footer h2{
+        text-align: start;
+    }   
+
+    footer div li{
+        display: block;
+        text-align: start;
+    }
+    
+    h3{
+        text-align: end;
+    }
+
+    .suscripcion{
+        text-align: end;
+    }
+
+    .intro__titulo,.intro__p1,.intro__p2{
+        text-align: start;
+    }
+}

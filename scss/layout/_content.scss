@@ -1,0 +1,15 @@
+.intro{
+    background-color: black;
+    &__titulo{
+        font-size: 2rem;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 700;
+        text-decoration: underline;
+        margin: 20px;
+        color: white;
+        text-align: center;
+    }
+    &__p1,&__p2{
+        text-align: center;
+    }
+}
