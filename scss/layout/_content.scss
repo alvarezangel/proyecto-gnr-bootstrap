@@ -13,3 +13,36 @@
         text-align: center;
     }
 }
+.fondo-cont1{
+    background-color: black;
+}
+.biografia-1{
+    background-color:black;
+    padding: 5px;
+    &__titulo{
+        font-size: 2rem;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 700;
+        text-decoration: underline;
+        margin: 20px;
+        color: white;
+    }
+}
+.biografia-2{
+    background-color:black;
+    padding: 5px;   
+}
+
+.biografia-3{
+    background-color:black;
+    padding: 5px;
+}
+.fondo-cont3{
+    background-color: black;
+}
+.fondo-cont4{
+    background-color: black;
+}
+.fondo-cont5{
+    background-color: black;
+}

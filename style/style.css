@@ -99,6 +99,45 @@ nav ul li:hover {
   text-align: center;
 }
 
+.fondo-cont1 {
+  background-color: black;
+}
+
+.biografia-1 {
+  background-color: black;
+  padding: 5px;
+}
+.biografia-1__titulo {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  margin: 20px;
+  color: white;
+}
+
+.biografia-2 {
+  background-color: black;
+  padding: 5px;
+}
+
+.biografia-3 {
+  background-color: black;
+  padding: 5px;
+}
+
+.fondo-cont3 {
+  background-color: black;
+}
+
+.fondo-cont4 {
+  background-color: black;
+}
+
+.fondo-cont5 {
+  background-color: black;
+}
+
 footer {
   padding-top: 5px;
   background-color: black;
@@ -156,6 +195,51 @@ h3 {
   font-size: 1.2rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 500;
+  border-radius: 10px;
+}
+
+.contacto {
+  background-color: black;
+  padding: 20px;
+}
+.contacto__marco {
+  border: solid grey 4px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.contacto h2 {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+.contacto label {
+  font-size: 1.2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 500;
+  color: white;
+  margin: 20px;
+}
+.contacto input {
+  font-size: 1.2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 500;
+  padding: 2px;
+  border-radius: 10px;
+}
+.contacto div {
+  text-align: center;
+  margin: 10px 0px 10px;
+}
+
+textarea {
+  max-width: 80%;
+  font-size: 1.2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
 }
 
 hr {
@@ -186,6 +270,48 @@ video {
   height: 50vh;
   border: solid grey 5px;
   margin: 20px;
+}
+
+.img-banda1 {
+  width: 80%;
+  height: 80%;
+  border: 5px solid grey;
+  margin-top: 20px;
+}
+
+.fondo-img1 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-banda2 {
+  width: 80%;
+  height: 100%;
+  border: 5px solid grey;
+}
+
+.fondo-img2 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.img-banda3 {
+  width: 80%;
+  height: 100%;
+  border: 5px solid grey;
+}
+
+.fondo-img3 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 @media (max-width: 1199px) {
