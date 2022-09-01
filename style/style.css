@@ -138,6 +138,62 @@ nav ul li:hover {
   background-color: black;
 }
 
+.fondo-cont-disc {
+  background-color: black;
+}
+
+.main-disc {
+  background-color: black;
+}
+
+.titulo-discoa {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+}
+
+.titulo-discob {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+}
+
+.titulo-discoc {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+}
+
+.titulo-discod {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+}
+
+.titulo-discoe {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+}
+
+.titulo-discof {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+}
+
 footer {
   padding-top: 5px;
   background-color: black;
@@ -312,6 +368,78 @@ video {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+.img-discoa {
+  width: 500px;
+  height: 500px;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.img-discob {
+  width: 500px;
+  height: 500px;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.img-discoc {
+  width: 500px;
+  height: 500px;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.img-discod {
+  width: 500px;
+  height: 500px;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.img-discoe {
+  width: 500px;
+  height: 500px;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.img-discof {
+  width: 500px;
+  height: 500px;
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.iframe-discoa {
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.iframe-discob {
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.iframe-discoc {
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.iframe-discod {
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.iframe-discoe {
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.iframe-discof {
+  border: 5px solid grey;
+  border-radius: 10px;
 }
 
 @media (max-width: 1199px) {

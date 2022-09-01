@@ -322,13 +322,13 @@ footer ul {
 
 textarea{
     max-width: 80%;
-}*/
+}
 
 .fondo-cont-disc{
     background-color: black;
-}
+}*/
 
-.main-disc{
+/* .main-disc{
     background-color: black;
 }
 .titulo-discoa{
@@ -450,7 +450,7 @@ textarea{
 .iframe-discof{
     border: 5px solid grey;
     border-radius: 10px;
-}
+} */
 
 /* @media (max-width:1199px){
 
