@@ -1,9 +1,9 @@
 .fondo-img{
-    background-color: black;
+    background-color: $color-a;
     &__estilo{
         width: 30vw;
         height: 50vh;
-        border: solid grey 5px;
+        border: solid $color-b 5px;
         margin: 20px;
         border-radius: 10px;
     }
@@ -11,14 +11,14 @@
 .img-banda1{
     width: 80% ;
     height: 80%;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     margin-top: 20px;
     border-radius: 10px;
     
 }
 
 .fondo-img1{
-    background-color: black;
+    background-color: $color-a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,12 +26,12 @@
 .img-banda2{
     width: 80% ;
     height: 100%;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
     
 }
 .fondo-img2{
-    background-color: black;
+    background-color: $color-a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +40,12 @@
 .img-banda3{
     width: 80% ;
     height: 100%;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
     
 }
 .fondo-img3 {
-    background-color: black;
+    background-color: $color-a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,36 +54,36 @@
 .img-discoa{
     width: 500px;
     height: 500px;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
 }
 .img-discob{
     width: 500px;
     height: 500px;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
 }
 .img-discoc{
     width: 500px;
     height: 500px;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
 }
 .img-discod{
     width: 500px;
     height: 500px;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
 }
 .img-discoe{
     width: 500px;
     height: 500px;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
 }
 .img-discof{
     width: 500px;
     height: 500px;
-    border: 5px solid grey;
+    border: 5px solid $color-b;
     border-radius: 10px;
 }

@@ -1,55 +1,55 @@
 .fondo-susc{
-    background-color: black;
+    background-color: $color-a;
 }
 
 .suscripcion{
     font-size: 1.3rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 500;
-    color: white;
+    color: $color-c;
     text-align: center;
-    background-color: black;
+    background-color: $color-a;
     &__boton{
-        color:black;
+        color:$color-a;
         font-size: 1.2rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: $font-a;
         font-weight: 500;
         padding: 2px;
         border-radius: 10px;
     }
     &__email{
         font-size: 1.2rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: $font-a;
         font-weight: 500;
         border-radius: 10px;
     }
 }
 .contacto{
-    background-color: black;
+    background-color: $color-a;
     padding: 20px;
     &__marco{
-        border: solid grey 4px;
+        border: solid $color-b 4px;
         padding: 20px;
         border-radius: 10px;
     }
     h2{
         font-size: 2rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: $font-a;
         font-weight: 700;
         margin: 20px;
-        color: white;
+        color: $color-c;
         text-align: center;
     }
     label{
         font-size: 1.2rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: $font-a;
         font-weight: 500;
-        color: white;
+        color: $color-c;
         margin: 20px;
     }
     input{
         font-size: 1.2rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: $font-a;
         font-weight: 500;
         padding: 2px;
         border-radius: 10px;
@@ -62,7 +62,7 @@
 textarea{
     max-width: 80%;
     font-size: 1.2rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 500;
     border-radius: 10px;
     

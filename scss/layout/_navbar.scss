@@ -1,13 +1,13 @@
 nav ul{
-    background-color: rgb(255, 0, 0);
-    color: white;
+    background-color: $color-d;
+    color: $color-c;
     text-align: center;
     margin: 0px;
     padding-left: 0px;
     li{
         list-style-type: none;
         display: inline-block;
-        font-family: 'Yanone Kaffeesatz', sans-serif ;
+        font-family: $font-a;
         font-weight: 700;
         font-size: 2rem;
         margin-inline: 15px;

@@ -5,8 +5,8 @@
 video{
     width: 30vw;
     height: 50vh;
-    border: solid grey 5px;
-    background-color: black;
+    border: solid $color-b 5px;
+    background-color: $color-a;
     margin: 20px;
     border-radius: 10px;
 }

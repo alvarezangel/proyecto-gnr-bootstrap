@@ -51,7 +51,7 @@ h1 {
   }
 }
 nav ul {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
   color: white;
   text-align: center;
   margin: 0px;
@@ -101,6 +101,10 @@ nav ul li:hover {
 
 .fondo-cont1 {
   background-color: black;
+}
+
+.bio-cont {
+  overflow: hidden;
 }
 
 .biografia-1 {

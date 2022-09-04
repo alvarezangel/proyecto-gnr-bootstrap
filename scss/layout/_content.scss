@@ -1,12 +1,12 @@
 .intro{
-    background-color: black;
+    background-color: $color-a;
     &__titulo{
         font-size: 2rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: $font-a;
         font-weight: 700;
         text-decoration: underline;
         margin: 20px;
-        color: white;
+        color: $color-c;
         text-align: center;
     }
     &__p1,&__p2{
@@ -14,133 +14,136 @@
     }
 }
 .fondo-cont1{
-    background-color: black;
+    background-color: $color-a;
+}
+.bio-cont{
+    overflow: hidden;
 }
 .biografia-1{
-    background-color:black;
+    background-color:$color-a;
     padding: 5px;
     &__titulo{
         font-size: 2rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: $font-a;
         font-weight: 700;
         text-decoration: underline;
         margin: 20px;
-        color: white;
+        color: $color-c;
     }
 }
 .biografia-2{
-    background-color:black;
+    background-color:$color-a;
     padding: 5px;   
 }
 
 .biografia-3{
-    background-color:black;
+    background-color:$color-a;
     padding: 5px;
 }
 .fondo-cont3{
-    background-color: black;
+    background-color: $color-a;
 }
 .fondo-cont4{
-    background-color: black;
+    background-color: $color-a;
 }
 .fondo-cont5{
-    background-color: black;
+    background-color: $color-a;
 }
 .fondo-cont-disc{
-    background-color: black;
+    background-color: $color-a;
 }
 .main-disc{
-    background-color: black;
+    background-color: $color-a;
 }
 .titulo-disc{
     font-size: 2rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
     padding: 20px;
 }
 .titulo-discoa{
     font-size: 1.6rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
 }
 .titulo-discob{
     font-size: 1.6rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
 
 }
 .titulo-discoc{
     font-size: 1.6rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
 }
 .titulo-discod{
     font-size: 1.6rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
 }
 .titulo-discoe{
     font-size: 1.6rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
 }
 .titulo-discof{
     font-size: 1.6rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
 }
 .tours-titulo{
     font-size: 2rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 700;
     text-decoration: underline;
-    color: white;
+    color: $color-c;
     padding: 20px;
     text-align: center;
 }
 table{
     width: 500px;
     font-size: 1.3rem;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: $font-a;
     font-weight: 500;
     margin: 20px;
-    color: white;
+    color: $color-c;
     text-align: center;
     margin-bottom: 50px;
     thead{
-        background-color: grey;
-        border: 5px solid grey;
+        background-color: $color-b;
+        border: 5px solid $color-b;
         }
     }
 .mont{
-    background-color: grey;
+    background-color: $color-b;
 }
 .sant{
-    background-color: grey;
+    background-color: $color-b;
 }
 .car{
-    background-color: grey;
+    background-color: $color-b;
 }
 .mad{
-    background-color: grey;
+    background-color: $color-b;
 }
 .lis{
-    background-color: grey;
+    background-color: $color-b;
 }
 .par{
-    background-color: grey;
+    background-color: $color-b;
 }
