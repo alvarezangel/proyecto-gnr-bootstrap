@@ -121,12 +121,11 @@ table{
     color: white;
     text-align: center;
     margin-bottom: 50px;
+    thead{
+        background-color: grey;
+        border: 5px solid grey;
+        }
     }
-
-
-thead{
-    background-color: grey;
-}
 .mont{
     background-color: grey;
 }
