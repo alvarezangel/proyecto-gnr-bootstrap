@@ -203,6 +203,55 @@ nav ul li:hover {
   color: white;
 }
 
+.tours-titulo {
+  font-size: 2rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 500px;
+  font-size: 1.3rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 500;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+thead {
+  background-color: grey;
+}
+
+.mont {
+  background-color: grey;
+}
+
+.sant {
+  background-color: grey;
+}
+
+.car {
+  background-color: grey;
+}
+
+.mad {
+  background-color: grey;
+}
+
+.lis {
+  background-color: grey;
+}
+
+.par {
+  background-color: grey;
+}
+
 footer {
   padding-top: 5px;
   background-color: black;
