@@ -1,8 +1,9 @@
-header {
+.encabezado{
+    border-bottom: 6px solid grey;
     background-color: $color-a;
 }
 
-h1{
+.titulo-principal{
     font-family: $font-a;
     font-weight: 700; 
     font-size: 5rem;

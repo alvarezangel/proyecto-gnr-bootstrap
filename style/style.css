@@ -25,11 +25,12 @@ p {
   color: white;
 }
 
-header {
+.encabezado {
+  border-bottom: 6px solid grey;
   background-color: black;
 }
 
-h1 {
+.titulo-principal {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
   font-size: 5rem;
@@ -83,11 +84,16 @@ nav ul li:hover {
     opacity: 1;
   }
 }
+.contenido {
+  border-top: 6px solid grey;
+  border-bottom: 6px solid grey;
+}
+
 .intro {
   background-color: black;
 }
 .intro__titulo {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
   text-decoration: underline;
@@ -112,7 +118,7 @@ nav ul li:hover {
   padding: 5px;
 }
 .biografia-1__titulo {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
   text-decoration: underline;
@@ -151,7 +157,7 @@ nav ul li:hover {
 }
 
 .titulo-disc {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
   text-decoration: underline;
@@ -208,7 +214,7 @@ nav ul li:hover {
 }
 
 .tours-titulo {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
   text-decoration: underline;
@@ -325,7 +331,7 @@ h3 {
   border-radius: 10px;
 }
 .contacto h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
   margin: 20px;
@@ -359,14 +365,6 @@ textarea {
   border-radius: 10px;
 }
 
-hr {
-  padding: 3px;
-  background-color: grey;
-  border-color: black;
-  margin: 0px;
-  opacity: 50;
-}
-
 .fondo-vid {
   background-color: black;
 }
@@ -382,6 +380,10 @@ video {
 
 .fondo-img {
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 .fondo-img__estilo {
   width: 30vw;
@@ -391,19 +393,11 @@ video {
   border-radius: 10px;
 }
 
-.img-banda1 {
+.img-banda {
   width: 80%;
   height: 80%;
   border: 5px solid grey;
-  margin-top: 20px;
   border-radius: 10px;
-}
-
-.fondo-img1 {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .img-banda2 {
@@ -413,97 +407,18 @@ video {
   border-radius: 10px;
 }
 
-.fondo-img2 {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.img-banda3 {
-  width: 80%;
-  height: 100%;
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.fondo-img3 {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.img-discoa {
+.img-disco {
   width: 500px;
   height: 500px;
   border: 5px solid grey;
   border-radius: 10px;
 }
 
-.img-discob {
-  width: 500px;
-  height: 500px;
-  border: 5px solid grey;
-  border-radius: 10px;
+.img-fluid {
+  aspect-ratio: 16/9;
 }
 
-.img-discoc {
-  width: 500px;
-  height: 500px;
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.img-discod {
-  width: 500px;
-  height: 500px;
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.img-discoe {
-  width: 500px;
-  height: 500px;
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.img-discof {
-  width: 500px;
-  height: 500px;
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.iframe-discoa {
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.iframe-discob {
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.iframe-discoc {
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.iframe-discod {
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.iframe-discoe {
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.iframe-discof {
+.iframe-disco {
   border: 5px solid grey;
   border-radius: 10px;
 }
@@ -540,7 +455,7 @@ video {
     width: 50vw;
   }
 }
-td button {
+.boton {
   border-radius: 10px;
   width: 80px;
   margin: 5px;

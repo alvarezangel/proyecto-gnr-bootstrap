@@ -1,5 +1,9 @@
 .fondo-img{
     background-color: $color-a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     &__estilo{
         width: 30vw;
         height: 50vh;
@@ -8,20 +12,11 @@
         border-radius: 10px;
     }
 }
-.img-banda1{
+.img-banda{
     width: 80% ;
     height: 80%;
     border: 5px solid $color-b;
-    margin-top: 20px;
     border-radius: 10px;
-    
-}
-
-.fondo-img1{
-    background-color: $color-a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .img-banda2{
     width: 80% ;
@@ -30,60 +25,12 @@
     border-radius: 10px;
     
 }
-.fondo-img2{
-    background-color: $color-a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-.img-banda3{
-    width: 80% ;
-    height: 100%;
-    border: 5px solid $color-b;
-    border-radius: 10px;
-    
-}
-.fondo-img3 {
-    background-color: $color-a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-.img-discoa{
+.img-disco{
     width: 500px;
     height: 500px;
     border: 5px solid $color-b;
     border-radius: 10px;
 }
-.img-discob{
-    width: 500px;
-    height: 500px;
-    border: 5px solid $color-b;
-    border-radius: 10px;
-}
-.img-discoc{
-    width: 500px;
-    height: 500px;
-    border: 5px solid $color-b;
-    border-radius: 10px;
-}
-.img-discod{
-    width: 500px;
-    height: 500px;
-    border: 5px solid $color-b;
-    border-radius: 10px;
-}
-.img-discoe{
-    width: 500px;
-    height: 500px;
-    border: 5px solid $color-b;
-    border-radius: 10px;
-}
-.img-discof{
-    width: 500px;
-    height: 500px;
-    border: 5px solid $color-b;
-    border-radius: 10px;
+.img-fluid{
+    aspect-ratio: 16/9;
 }
