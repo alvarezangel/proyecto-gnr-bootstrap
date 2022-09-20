@@ -105,54 +105,21 @@ nav ul li:hover {
   text-align: center;
 }
 
-.fondo-cont1 {
-  background-color: black;
-}
-
-.bio-cont {
-  overflow: hidden;
-}
-
-.biografia-1 {
+.biografia {
   background-color: black;
   padding: 5px;
 }
-.biografia-1__titulo {
+.biografia__titulo {
   font-size: 2.5rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
   text-decoration: underline;
   margin: 20px;
   color: white;
-}
-
-.biografia-2 {
-  background-color: black;
-  padding: 5px;
-}
-
-.biografia-3 {
-  background-color: black;
-  padding: 5px;
-}
-
-.fondo-cont3 {
-  background-color: black;
-}
-
-.fondo-cont4 {
-  background-color: black;
-}
-
-.fondo-cont5 {
-  background-color: black;
+  text-align: center;
 }
 
 .fondo-cont-disc {
-  background-color: black;
-}
-
-.main-disc {
   background-color: black;
 }
 
@@ -164,48 +131,7 @@ nav ul li:hover {
   color: white;
   padding: 20px;
 }
-
-.titulo-discoa {
-  font-size: 1.6rem;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-weight: 700;
-  text-decoration: underline;
-  color: white;
-}
-
-.titulo-discob {
-  font-size: 1.6rem;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-weight: 700;
-  text-decoration: underline;
-  color: white;
-}
-
-.titulo-discoc {
-  font-size: 1.6rem;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-weight: 700;
-  text-decoration: underline;
-  color: white;
-}
-
-.titulo-discod {
-  font-size: 1.6rem;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-weight: 700;
-  text-decoration: underline;
-  color: white;
-}
-
-.titulo-discoe {
-  font-size: 1.6rem;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-weight: 700;
-  text-decoration: underline;
-  color: white;
-}
-
-.titulo-discof {
+.titulo-disc__subt {
   font-size: 1.6rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 700;
@@ -407,18 +333,29 @@ video {
   border-radius: 10px;
 }
 
+.cont-imgd {
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
 .img-disco {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   border: 5px solid grey;
   border-radius: 10px;
 }
 
 .img-fluid {
+  width: 100vw;
   aspect-ratio: 16/9;
 }
 
 .iframe-disco {
+  width: 462px;
+  height: 462px;
   border: 5px solid grey;
   border-radius: 10px;
 }
@@ -432,6 +369,10 @@ video {
   }
   .img-banda1 {
     width: 70vw;
+  }
+  .iframe-disco {
+    width: 343px;
+    height: 343px;
   }
 }
 @media (min-width: 1200px) {

@@ -17,20 +17,29 @@
     height: 80%;
     border: 5px solid $color-b;
     border-radius: 10px;
+    
 }
 .img-banda2{
     width: 80% ;
     height: 100%;
     border: 5px solid $color-b;
     border-radius: 10px;
-    
+}
+
+.cont-imgd{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    margin: 0 auto;
 }
 .img-disco{
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     border: 5px solid $color-b;
     border-radius: 10px;
 }
 .img-fluid{
+    width: 100vw;
     aspect-ratio: 16/9;
 }
