@@ -1,6 +1,6 @@
 @media (max-width:1199px){
 
-    video{
+    .video{
         width: 70vw;
     }
 
@@ -19,16 +19,16 @@
 
 @media (min-width:1200px){
     
-    footer h2{
+    .pie-pag__titulo{
         text-align: start;
     }   
 
-    footer div li{
+    .pie-pag__redes{
         display: block;
         text-align: start;
     }
     
-    h3{
+    .titulo-susc{
         text-align: end;
     }
 
@@ -39,7 +39,7 @@
     .intro__titulo,.intro__p1,.intro__p2{
         text-align: start;
     }
-    table{
+    .tabla{
         width: 50vw;
     }
 }

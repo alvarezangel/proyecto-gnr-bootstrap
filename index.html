@@ -20,12 +20,12 @@
     <header class="encabezado">
         <h1 class="titulo-principal">Guns N' Roses</h1>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./pages/biografia.html">Biografía</a></li>
-                <li><a href="./pages/discografia.html">Discografía</a></li>
-                <li><a href="./pages/tours.html">Tours</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
+            <ul class="barra-nav">
+                <li class="barra-nav__pag"><a href="../index.html">Inicio</a></li>
+                <li class="barra-nav__pag"><a href="./pages/biografia.html">Biografía</a></li>
+                <li class="barra-nav__pag"><a href="./pages/discografia.html">Discografía</a></li>
+                <li class="barra-nav__pag"><a href="./pages/tours.html">Tours</a></li>
+                <li class="barra-nav__pag"><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -49,7 +49,7 @@
             </div>
             <div class="col-12 col-xl-4 p-0 d-flex justify-content-center fondo-vid">
                 <video src="./vid/guns-n-roses-dont-cry_104131.mp4" controls data-aos="flip-left"
-                    data-aos-duration="800" data-aos-easing="ease-in"></video>
+                    data-aos-duration="800" data-aos-easing="ease-in" class="video"></video>
             </div>
             <div class="col-12 col-xl-4 p-0 d-flex justify-content-center fondo-img">
                 <img src="./img/slash-axel-op.jpg" alt="slash y axel en concierto" class="fondo-img__estilo"
@@ -58,23 +58,23 @@
         </div>
     </main>
 
-    <footer class="container-fluid">
+    <footer class="container-fluid pie-pag">
         <div class="row">
             <div class="col-12 col-xl-4 p-0">
-                <h2>Seguinos en:</h2>
+                <h2 class="pie-pag__titulo">Seguinos en:</h2>
                 <div>
-                    <ul class="m-0 p-3">
-                        <li>
+                    <ul class="m-0 p-3 pie-pag__lista">
+                        <li class="pie-pag__redes">
                             <a href="https://es-la.facebook.com/gunsnroses" target="_blank">Facebook</a>
                         </li>
-                        <li>
+                        <li class="pie-pag__redes">
                             <a href="https://twitter.com/gunsnroses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                                 target="_blank">Twitter</a>
                         </li>
-                        <li>
+                        <li class="pie-pag__redes">
                             <a href="https://www.instagram.com/gunsnroses/" target="_blank">Instagram</a>
                         </li>
-                        <li>
+                        <li class="pie-pag__redes">
                             <a href="https://www.youtube.com/channel/UCIak6JLVOjqhStxrL1Lcytw"
                                 target="_blank">Youtube</a>
                         </li>
@@ -82,7 +82,7 @@
                 </div>
             </div>
             <div class="col-12 col-xl-8 p-0 fondo-susc">
-                <h3 class="m-0 p-4">
+                <h3 class="m-0 p-4 titulo-susc">
                     ¡Suscribite y enterate de más fechas de conciertos y entradas!
                 </h3>
                 <form>
@@ -95,7 +95,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

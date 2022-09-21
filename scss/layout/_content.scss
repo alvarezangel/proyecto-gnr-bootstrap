@@ -1,6 +1,7 @@
 .contenido{
     border-top: 6px solid grey;
     border-bottom: 6px solid grey;
+    background-color: black;
     
 }
 .intro{
@@ -58,7 +59,7 @@
     padding: 20px;
     text-align: center;
 }
-table{
+.tabla{
     width: 80vw;
     font-size: 1.3rem;
     font-family: $font-a;
@@ -66,26 +67,14 @@ table{
     color: $color-c;
     text-align: center;
     margin: 30px;
-    thead{
+    &__encabezado{
         background-color: $color-b;
         border: 5px solid $color-b;
         }
     }
-.mont{
+.lugar{
     background-color: $color-b;
 }
-.sant{
-    background-color: $color-b;
-}
-.car{
-    background-color: $color-b;
-}
-.mad{
-    background-color: $color-b;
-}
-.lis{
-    background-color: $color-b;
-}
-.par{
-    background-color: $color-b;
+.link-compra.link-compra{
+    color: $color-a;
 }
